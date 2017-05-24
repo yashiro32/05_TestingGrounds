@@ -2,5 +2,16 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.13",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "S05_TestingGrounds",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+		}
+	]
 }
